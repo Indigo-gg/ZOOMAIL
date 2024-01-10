@@ -1,0 +1,150 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.--van-popup-background{
+    background-color: #fff2e2;
+
+}
+/* 添加这段样式后，Primary Button 会变成红色 */
+:root:root {
+    --van-popup-background: #fff2e2;
+}
+p{
+    color: #707070;
+    /*line-height: 24px;*/
+    /*font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif;*/
+    text-indent: 2em;
+    font-size: 20px;
+    padding: 0 10px;
+    line-height: 1.6em;
+}
+code{
+    max-width:100%;
+    white-space: break-spaces;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.flex-col-around{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.flex-col-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flex-col-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-center{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-between{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-content: center;
+}
+.flex-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.my-flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-overflow-5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+
+
+
+
+
+
+
+
+.flex-col-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-col-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-col-space-around {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.flex-col-space-around-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-row-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-row-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-row-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-row-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

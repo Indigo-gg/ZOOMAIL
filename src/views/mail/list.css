@@ -1,0 +1,134 @@
+.top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 111;
+    background-color: #fff;
+}
+.head-title{
+    padding: 10px;
+    color: #4b4a4a;
+    text-align: center;
+    font-size: 24px;
+    font-family: '华文楷体'
+}
+.content{
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /*padding: 10px;*/
+    /*filter: ;*/
+    backdrop-filter: blur(2px) drop-shadow(0px 0px 10px #ffffff) drop-shadow(0px 0px 10px #ffffff);
+
+}
+.mail-list-item{
+    position: relative;
+    text-align: center;
+    margin: 3vh auto;
+
+    /*background-color: #5FFBF1;*/
+    border-radius: 10px;
+    height: 20vh;
+    width: 80vw;
+}
+
+.title{
+    max-width: 6em;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*margin-top: 5px;*/
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    /*width: 20vw;*/
+    background-color: rgba(255,255,255,0.4);
+    font-size: 24px;
+    color: #0e0e0e;
+    font-family: 华文楷体 迷你简细行楷;
+}
+.from{
+    /*text-align: right;*/
+    color: #4b4a4a;
+    padding: 2px;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 2px;
+    top: 2vw;
+    left: 2vw;
+    background-color: rgba(217, 180, 110, 0.7);
+}
+.to{
+    /*text-align: right;*/
+    color: rgba(147, 6, 86, 0.99);
+    padding: 2px;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 2px;
+    top: 2vw;
+    right: 2vw;
+    background-color: rgba(111, 190, 177,0.6);
+
+}
+.date{
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    padding: 2px;
+    color: rgba(112, 112, 112, 0.8);
+    font-size: 0.4em;
+    background-color: rgb(176, 216, 231);
+    border-radius: 2px;
+
+}
+.toDate{
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    padding: 2px;
+    color: rgba(112, 112, 112, 0.8);
+    font-size: 0.4em;
+    background-color: rgb(176, 216, 231);
+    border-radius: 2px;
+}
+.remark{
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+    color: #66f1d2;
+    font-size: 12px;
+    position: absolute;
+    background-color: rgba(75, 74, 74,0.4);
+    bottom: 1vh;
+    /*right: 5vw;*/
+    width: 20em;
+    overflow-x: hidden;
+    text-overflow:ellipsis ;
+}
+.mail-box{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.back{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.my-icon{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.mail-list-item:hover{
+    cursor: pointer;
+}
